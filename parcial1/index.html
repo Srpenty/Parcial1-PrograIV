@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      padding: 10px;
+      height: 300px;
+    }
+    
+    .left {
+      width: 25%;
+    }
+    
+    .right {
+      width: 75%;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
+<body>
+
+    <h2 id="titulo">Introduccion a Warhammer 40k</h2>
+    
+    <div  id = "pag" >
+      <div  class="column left" style="background-color: aqua;">
+        <h2>Descripcion</h2>
+        <p>En esta pagina se dara una breve introduccion hacerca de que es la franquicia de Warhammer 40k</p>
+
+      </div>
+      <div class="column right" style="background-color: blueviolet;" >
+        <h2>Que es Warhammer 40k</h2>
+        <p>Warhammer 40000 es una franquicia de ciencia ficción y fantasía oscura para adultos o grimdark como suele ser referido,
+             fundada en el año 1987 creada por la compañía británica games workshop. 
+             Esta inicio como una adaptación de otro gran título de games workshop, llamado Warhammer fantasy</p>
+
+        <img src="OIP.jpg" width="190" height="160">
+
+      </div>
+      
+      <tr>
+        <td id="nodoPadre" colspan="2"></td>
+      </tr>
+      
+    </div>
+    <h3 id="nomb">Esta pagina fue hecha por: Oscar Armando Alvarez Alvarez SMSS080922</h1>
+
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    
+    </body>    
+</html>
